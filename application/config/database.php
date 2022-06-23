@@ -75,10 +75,17 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	// 'hostname' => 'localhost',
+	// 'username' => '',
+	// 'password' => '',
+	// 'database' => '',
+
+	
+	'hostname' => '117.102.230.110',
+	'username' => 'adminserver',
+	'password' => 'envilab123',
+	'database' => 'db_envilab_git',
+
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
