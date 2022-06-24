@@ -84,7 +84,7 @@ $db['default'] = array(
 	'hostname' => '117.102.230.110',
 	'username' => 'adminserver',
 	'password' => 'envilab123',
-	'database' => 'db_envilab_git',
+	'database' => 'db_envilab',
 
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

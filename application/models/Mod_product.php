@@ -17,8 +17,8 @@ Class Mod_product extends CI_Model
             $tempArray = array();
             $tempArray['id_customer'] = $row->id_customer;
             $tempArray['nama'] = $row->nama;
-            $tempArray['alamt'] = $row->alamat;
-            $response['data'][] = $tempArray;
+            $tempArray['alamat'] = $row->alamat;
+            $response['data_customer'][] = $tempArray;
          }
          return $response;
       }

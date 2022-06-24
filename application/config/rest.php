@@ -111,7 +111,7 @@ $config['rest_realm'] = 'REST API';
 |
 */
 $config['rest_auth'] = FALSE;
-
+// $config['rest_auth'] = 'basic';
 /*
 |--------------------------------------------------------------------------
 | REST Login Source
